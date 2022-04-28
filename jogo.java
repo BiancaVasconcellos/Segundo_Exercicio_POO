@@ -20,20 +20,20 @@ public class jogo {
                 case 1:
                     soneca.cacar();
                     guloso.dormir();
-                    System.out.println("\n");
+                    System.out.println();
                     break;
                 case 2:
                     soneca.comer();
                     guloso.cacar();
-                    System.out.println("\n");
+                    System.out.println();
                     break;
                 case 3:
                     soneca.dormir();
                     guloso.comer();
-                    System.out.println("\n");
+                    System.out.println();
                     break;
             }
-            System.out.println("-----------------------------"); 
+            System.out.println("\n-----------------------------"); 
             Thread.sleep(2000);
        }
     }

@@ -27,13 +27,12 @@ public class personagem{
     public String getNome(){
         return this.nome;
     }
-    
 
-    
     void estado(){
-        System.out.printf("\nEstado:\n Personagem: %s \nEnergia: %d \nFome: %d \n Sono: %d", this.nome, this.energia, this.fome, this.sono);
+        System.out.printf("\nEstado: \nPersonagem: %s  \nEnergia: %s  \nFome: %s  \nSono: %s",
+        this.nome, this.energia, this.fome, this.sono);
     }    
-    
+        
     void cacar(){
         if (this.energia >= 2){
             System.out.println(nome + " caçando...");
